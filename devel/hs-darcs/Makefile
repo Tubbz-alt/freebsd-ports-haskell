@@ -8,7 +8,7 @@ CATEGORIES=	devel haskell
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Distributed, interactive, smart revision control system
 
-LICENSE=	GPLv2
+LICENSE=	GPLv2+
 
 LIB_DEPENDS=	libcurl.so:ftp/curl
 
