@@ -1,7 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	mixertui
-DISTVERSION=	0.1
+DISTVERSION=	1.1
 CATEGORIES=	audio
 
 MAINTAINER=	alfix86@gmail.com
@@ -10,10 +10,12 @@ COMMENT=	Audio Mixer with a Terminal User Interface
 LICENSE=	BSD2CLAUSE
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
+LIB_DEPENDS=	libsysctlmibinfo2.so:devel/libsysctlmibinfo2
+
 USE_GITLAB=	yes
 
 GL_ACCOUNT=	alfix
-GL_COMMIT=	12c04d4dc9722a5d8ebfc9e676475a3b1ed095d0
+GL_COMMIT=	942cfd0b4a6205d718f567b556cac84268c30003
 
 PLIST_FILES=	man/man8/${PORTNAME}.8.gz \
 		sbin/${PORTNAME}
