@@ -38,7 +38,7 @@ post-install:
 
 post-install-EXAMPLES-on:
 	@${MKDIR} ${STAGEDIR}${EXAMPLESDIR}
-	${INSTALL_DATA} ${PATCHDIR}/example_buildscript ${STAGEDIR}${EXAMPLESDIR}/build
+	${INSTALL_SCRIPT} ${PATCHDIR}/example_buildscript ${STAGEDIR}${EXAMPLESDIR}/build
 	${INSTALL_DATA} ${PATCHDIR}/example_config.cabal ${STAGEDIR}${EXAMPLESDIR}/xmonad-config.cabal
 	${INSTALL_DATA} ${WRKSRC}/man/xmonad.hs ${STAGEDIR}${EXAMPLESDIR}
 
