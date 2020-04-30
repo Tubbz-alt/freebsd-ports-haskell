@@ -2,8 +2,10 @@
 # $FreeBSD$
 
 PORTNAME=	stack
-PORTVERSION=	2.3.0.1
+PORTVERSION=	2.3.1
+DISTVERSIONPREFIX=	v
 CATEGORIES=	devel haskell
+EXTRACT_ONLY=	${DISTNAME}${EXTRACT_SUFX}
 
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Cross-platform program for developing Haskell programs
@@ -14,12 +16,9 @@ BUILD_DEPENDS=	happy:devel/hs-happy
 RUN_DEPENDS=	ca_root_nss>0:security/ca_root_nss \
 		gmake:devel/gmake
 
-# TODO: Remove following when this isn't RC and stack is on hackage
-DISTVERSIONPREFIX=	v
 USE_GITHUB=	yes
 GH_ACCOUNT=	commercialhaskell
 GH_PROJECT=	stack
-EXTRACT_ONLY=	${DISTNAME}${EXTRACT_SUFX}
 
 USES=		cabal gmake perl5
 
@@ -181,7 +180,7 @@ USE_CABAL=	aeson-1.4.7.1_1 \
 		x509-validation-1.6.11 \
 		yaml-0.11.3.0 \
 		zip-archive-0.4.1_1 \
-		zlib-0.6.2.1_1 
+		zlib-0.6.2.1_1
 
 #PLIST_FILES=	etc/bash_completion.d/_stack.bash \
 #		share/zsh/site-functions/_stack
