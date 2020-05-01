@@ -4,6 +4,7 @@ PORTNAME=	elm-format
 PORTVERSION=	0.8.3
 PORTREVISION=	1
 CATEGORIES=	devel textproc
+EXTRACT_ONLY=	${DISTNAME}${EXTRACT_SUFX}
 
 MAINTAINER=	haskell@FreeBSD.org
 COMMENT=	Elm source code formatter based on the official Elm Style Guide
@@ -15,7 +16,6 @@ USES=		cabal
 USE_GITHUB=	yes
 GH_ACCOUNT=	avh4
 GH_PROJECT=	elm-format
-EXTRACT_ONLY=	${DISTNAME}${EXTRACT_SUFX}
 
 USE_CABAL=	ansi-terminal-0.8.2 \
 		ansi-wl-pprint-0.6.8.2_2 \
