@@ -1032,7 +1032,6 @@
     SUBDIR += jsonrpc-glib
     SUBDIR += judy
     SUBDIR += jwasm
-    SUBDIR += k8048
     SUBDIR += kBuild
     SUBDIR += kapptemplate
     SUBDIR += kcachegrind
@@ -2386,6 +2385,7 @@
     SUBDIR += p5-File-HStore
     SUBDIR += p5-File-HomeDir
     SUBDIR += p5-File-HomeDir-PathClass
+    SUBDIR += p5-File-HomeDir-Tiny
     SUBDIR += p5-File-Iterator
     SUBDIR += p5-File-LibMagic
     SUBDIR += p5-File-MMagic
@@ -3951,6 +3951,7 @@
     SUBDIR += phpunit7
     SUBDIR += phpunit8
     SUBDIR += physfs
+    SUBDIR += pickle
     SUBDIR += picojson
     SUBDIR += picp
     SUBDIR += picprog
@@ -4199,6 +4200,7 @@
     SUBDIR += py-backports.functools_lru_cache
     SUBDIR += py-backports.os
     SUBDIR += py-backports.shutil_get_terminal_size
+    SUBDIR += py-backports.shutil_which
     SUBDIR += py-backports.tempfile
     SUBDIR += py-backports.weakref
     SUBDIR += py-backports_abc
@@ -4422,6 +4424,7 @@
     SUBDIR += py-flexmock
     SUBDIR += py-flit
     SUBDIR += py-flit-core
+    SUBDIR += py-fluent
     SUBDIR += py-fluent-logger
     SUBDIR += py-flufl.i18n
     SUBDIR += py-flufl.lock
@@ -4548,6 +4551,7 @@
     SUBDIR += py-jaraco.logging
     SUBDIR += py-jaraco.timing
     SUBDIR += py-jaraco.util
+    SUBDIR += py-jaraco.util13
     SUBDIR += py-javaproperties
     SUBDIR += py-jcc
     SUBDIR += py-jdcal
@@ -4741,14 +4745,19 @@
     SUBDIR += py-oslo.policy
     SUBDIR += py-oslo.policy2
     SUBDIR += py-oslo.privsep
+    SUBDIR += py-oslo.privsep1
     SUBDIR += py-oslo.reports
+    SUBDIR += py-oslo.reports1
     SUBDIR += py-oslo.rootwrap
+    SUBDIR += py-oslo.rootwrap5
     SUBDIR += py-oslo.serialization
     SUBDIR += py-oslo.service
     SUBDIR += py-oslo.upgradecheck
     SUBDIR += py-oslo.utils
     SUBDIR += py-oslo.versionedobjects
+    SUBDIR += py-oslo.versionedobjects1
     SUBDIR += py-oslo.vmware
+    SUBDIR += py-oslo.vmware2
     SUBDIR += py-oslotest
     SUBDIR += py-osprofiler
     SUBDIR += py-ovs
@@ -4907,6 +4916,7 @@
     SUBDIR += py-pytest-aiohttp
     SUBDIR += py-pytest-asyncio
     SUBDIR += py-pytest-azurepipelines
+    SUBDIR += py-pytest-black
     SUBDIR += py-pytest-cache
     SUBDIR += py-pytest-capturelog
     SUBDIR += py-pytest-cov
@@ -4919,6 +4929,7 @@
     SUBDIR += py-pytest-forked
     SUBDIR += py-pytest-helpers-namespace
     SUBDIR += py-pytest-isort
+    SUBDIR += py-pytest-lazy-fixture
     SUBDIR += py-pytest-localserver
     SUBDIR += py-pytest-mock
     SUBDIR += py-pytest-pep8
@@ -5196,6 +5207,7 @@
     SUBDIR += py-wadllib
     SUBDIR += py-warlock
     SUBDIR += py-watchdog
+    SUBDIR += py-watchgod
     SUBDIR += py-wcwidth
     SUBDIR += py-weakrefmethod
     SUBDIR += py-weblib
@@ -5563,6 +5575,7 @@
     SUBDIR += rubygem-aws-sdk-ioteventsdata
     SUBDIR += rubygem-aws-sdk-iotjobsdataplane
     SUBDIR += rubygem-aws-sdk-iotsecuretunneling
+    SUBDIR += rubygem-aws-sdk-iotsitewise
     SUBDIR += rubygem-aws-sdk-iotthingsgraph
     SUBDIR += rubygem-aws-sdk-kafka
     SUBDIR += rubygem-aws-sdk-kendra
@@ -6551,6 +6564,7 @@
     SUBDIR += rudeconfig
     SUBDIR += rudiments
     SUBDIR += runsnakerun
+    SUBDIR += rust-analyzer
     SUBDIR += rust-bindgen
     SUBDIR += rust-cbindgen
     SUBDIR += rvi
