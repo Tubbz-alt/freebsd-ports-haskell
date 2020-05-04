@@ -9,6 +9,8 @@ COMMENT=	Graphical viewer for GHC profile files
 
 LICENSE=	BSD3CLAUSE
 
+BROKEN=		Does not build with recent GHC
+
 USES=		cabal gnome pkgconfig
 
 USE_GNOME=	atk cairo gdkpixbuf2 glib20 gtk30 introspection pango
