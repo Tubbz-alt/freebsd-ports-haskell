@@ -14,6 +14,8 @@ COMMENT=	PureScript package manager and build tool
 
 LICENSE=	BSD3CLAUSE
 
+BROKEN_i386=	Crashes the compiler
+
 RUN_DEPENDS=	ca_root_nss>0:security/ca_root_nss
 
 USES=		cabal:hpack
