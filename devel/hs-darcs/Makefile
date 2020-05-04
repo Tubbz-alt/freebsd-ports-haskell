@@ -2,7 +2,7 @@
 # $FreeBSD$
 
 PORTNAME=	darcs
-PORTVERSION=	2.14.3
+PORTVERSION=	2.14.4
 CATEGORIES=	devel haskell
 
 MAINTAINER=	haskell@FreeBSD.org
