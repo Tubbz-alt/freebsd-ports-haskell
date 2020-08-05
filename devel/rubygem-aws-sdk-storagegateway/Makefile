@@ -2,7 +2,7 @@
 # $FreeBSD$
 
 PORTNAME=	aws-sdk-storagegateway
-PORTVERSION=	1.42.1
+PORTVERSION=	1.45.0
 CATEGORIES=	devel rubygems
 MASTER_SITES=	RG
 

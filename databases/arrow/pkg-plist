@@ -26,7 +26,9 @@ include/arrow/builder.h
 include/arrow/c/abi.h
 include/arrow/c/bridge.h
 include/arrow/c/helpers.h
+include/arrow/chunked_array.h
 include/arrow/compare.h
+include/arrow/config.h
 include/arrow/datum.h
 include/arrow/device.h
 include/arrow/extension_type.h
@@ -42,11 +44,11 @@ include/arrow/io/memory.h
 include/arrow/io/mman.h
 include/arrow/io/slow.h
 include/arrow/io/test_common.h
+include/arrow/io/transform.h
 include/arrow/io/type_fwd.h
 include/arrow/ipc/api.h
 include/arrow/ipc/dictionary.h
 include/arrow/ipc/feather.h
-include/arrow/ipc/json_integration.h
 include/arrow/ipc/json_simple.h
 include/arrow/ipc/message.h
 include/arrow/ipc/options.h
@@ -69,14 +71,17 @@ include/arrow/stl_allocator.h
 include/arrow/table.h
 include/arrow/table_builder.h
 include/arrow/tensor.h
+include/arrow/tensor/converter.h
 include/arrow/testing/extension_type.h
 include/arrow/testing/generator.h
 include/arrow/testing/gtest_common.h
 include/arrow/testing/gtest_compat.h
 include/arrow/testing/gtest_util.h
+include/arrow/testing/json_integration.h
 include/arrow/testing/pch.h
 include/arrow/testing/random.h
 include/arrow/testing/util.h
+include/arrow/testing/visibility.h
 include/arrow/type.h
 include/arrow/type_fwd.h
 include/arrow/type_traits.h
@@ -84,7 +89,9 @@ include/arrow/util/align_util.h
 include/arrow/util/atomic_shared_ptr.h
 include/arrow/util/base64.h
 include/arrow/util/basic_decimal.h
+include/arrow/util/benchmark_util.h
 include/arrow/util/bit_block_counter.h
+include/arrow/util/bit_run_reader.h
 include/arrow/util/bit_stream_utils.h
 include/arrow/util/bit_util.h
 include/arrow/util/bitmap.h
@@ -122,6 +129,7 @@ include/arrow/util/logging.h
 include/arrow/util/macros.h
 include/arrow/util/make_unique.h
 include/arrow/util/memory.h
+include/arrow/util/mutex.h
 include/arrow/util/optional.h
 include/arrow/util/parallel.h
 include/arrow/util/print.h
@@ -129,6 +137,7 @@ include/arrow/util/range.h
 include/arrow/util/rle_encoding.h
 include/arrow/util/simd.h
 include/arrow/util/sort.h
+include/arrow/util/spaced.h
 include/arrow/util/stopwatch.h
 include/arrow/util/string.h
 include/arrow/util/string_builder.h

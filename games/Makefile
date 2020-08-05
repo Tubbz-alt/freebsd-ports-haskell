@@ -19,6 +19,7 @@
     SUBDIR += OpenTomb
     SUBDIR += abbayedesmorts
     SUBDIR += abe
+    SUBDIR += abstreet
     SUBDIR += abuse_sdl
     SUBDIR += ace-of-penguins
     SUBDIR += acm
@@ -85,6 +86,7 @@
     SUBDIR += biorythm
     SUBDIR += bitefusion
     SUBDIR += black-box
+    SUBDIR += black-hole-solver
     SUBDIR += blackjackclient
     SUBDIR += blackshadeselite
     SUBDIR += blinken
@@ -133,6 +135,7 @@
     SUBDIR += catesc
     SUBDIR += cave9
     SUBDIR += cavezofphear
+    SUBDIR += cdogs-sdl
     SUBDIR += cgoban
     SUBDIR += chapping
     SUBDIR += chessx
@@ -569,6 +572,7 @@
     SUBDIR += lm-solve
     SUBDIR += lmarbles
     SUBDIR += lmpc
+    SUBDIR += lolcat
     SUBDIR += lordsawar
     SUBDIR += lpairs
     SUBDIR += lskat
@@ -872,6 +876,7 @@
     SUBDIR += sex
     SUBDIR += sgt-puzzles
     SUBDIR += shaaft
+    SUBDIR += shockolate
     SUBDIR += shootingstar
     SUBDIR += simplevaders
     SUBDIR += simsu

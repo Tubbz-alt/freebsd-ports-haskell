@@ -9,6 +9,7 @@
     SUBDIR += blt
     SUBDIR += bwidget
     SUBDIR += c++-gtk-utils
+    SUBDIR += color-widgets-qt5
     SUBDIR += ctk
     SUBDIR += fltk
     SUBDIR += fox14
@@ -171,6 +172,7 @@
     SUBDIR += py-easygui
     SUBDIR += py-fltk
     SUBDIR += py-gtk2
+    SUBDIR += py-guietta
     SUBDIR += py-qt5-chart
     SUBDIR += py-qt5-gui
     SUBDIR += py-qt5-quick

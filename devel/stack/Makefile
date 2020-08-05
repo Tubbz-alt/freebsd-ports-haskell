@@ -5,6 +5,7 @@ PORTNAME=	stack
 PORTVERSION=	2.3.1
 PORTREVISION=	1
 DISTVERSIONPREFIX=	v
+PORTREVISION=	2
 CATEGORIES=	devel haskell
 EXTRACT_ONLY=	${DISTNAME}${EXTRACT_SUFX}
 
@@ -15,7 +16,8 @@ LICENSE=	BSD3CLAUSE
 
 BUILD_DEPENDS=	happy:devel/hs-happy
 RUN_DEPENDS=	ca_root_nss>0:security/ca_root_nss \
-		gmake:devel/gmake
+		gmake:devel/gmake \
+		${LOCALBASE}/lib/compat/libffi.so.6:devel/libffi321
 
 USE_GITHUB=	yes
 GH_ACCOUNT=	commercialhaskell
@@ -25,6 +27,7 @@ USES=		cabal gmake perl5
 
 USE_PERL5=	run
 
+CABAL_FLAGS=	-support_aesni
 USE_CABAL=	Glob-0.10.1 \
 		StateVar-1.2 \
 		aeson-1.4.7.1_1 \

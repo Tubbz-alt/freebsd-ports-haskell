@@ -68,13 +68,13 @@ post-patch:
 	    -e 's,%%LOCALBASE%%,${LOCALBASE},g' \
 	    -e 's,%%PORTNAME%%,${PORTNAME},g' \
 	    -e 's,%%WWWDIR%%,${WWWDIR},g' \
-	    -e 's,\$COUCHDB_USER,${USERS},g' \
-	    -e 's,\$LOG_FILE,${LOGFILE},g' \
+	    -e 's,$$COUCHDB_USER,${USERS},g' \
+	    -e 's,$$LOG_FILE,${LOGFILE},g' \
 	    ${WRKSRC}/configure
 # https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=238514
 .if ${OPSYS} == FreeBSD && (${OSVERSION} < 1200000 || ${ARCH} == i386)
 	@${REINPLACE_CMD} \
-	    -e 's,\$FLTO_FLAG ,,g' \
+	    -e 's,$$FLTO_FLAG ,,g' \
 	    ${WRKSRC}/src/jiffy/rebar.config
 .endif
 

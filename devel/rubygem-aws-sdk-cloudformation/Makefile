@@ -2,7 +2,7 @@
 # $FreeBSD$
 
 PORTNAME=	aws-sdk-cloudformation
-PORTVERSION=	1.37.1
+PORTVERSION=	1.41.0
 CATEGORIES=	devel rubygems
 MASTER_SITES=	RG
 

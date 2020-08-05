@@ -209,6 +209,7 @@
     SUBDIR += grafana4
     SUBDIR += grafana5
     SUBDIR += grafana6
+    SUBDIR += grafana7
     SUBDIR += grails
     SUBDIR += gregarius
     SUBDIR += groupoffice
@@ -461,6 +462,7 @@
     SUBDIR += npm-node12
     SUBDIR += nspluginwrapper
     SUBDIR += obhttpd
+    SUBDIR += oneshot
     SUBDIR += onionbalance
     SUBDIR += onionshare
     SUBDIR += opencart
@@ -631,7 +633,6 @@
     SUBDIR += p5-Catalyst-Model-Tarantool
     SUBDIR += p5-Catalyst-Model-XML-Feed
     SUBDIR += p5-Catalyst-Model-Xapian
-    SUBDIR += p5-Catalyst-Model-Xapian10
     SUBDIR += p5-Catalyst-Plugin-AtomServer
     SUBDIR += p5-Catalyst-Plugin-Authentication
     SUBDIR += p5-Catalyst-Plugin-Authentication-CDBI
@@ -807,6 +808,7 @@
     SUBDIR += p5-HTML-GenToc
     SUBDIR += p5-HTML-GenerateUtil
     SUBDIR += p5-HTML-GoogleMaps
+    SUBDIR += p5-HTML-Gumbo
     SUBDIR += p5-HTML-Highlight
     SUBDIR += p5-HTML-LinkExtractor
     SUBDIR += p5-HTML-LinkList
@@ -902,6 +904,7 @@
     SUBDIR += p5-HTTP-Entity-Parser
     SUBDIR += p5-HTTP-Exception
     SUBDIR += p5-HTTP-HeaderParser-XS
+    SUBDIR += p5-HTTP-Headers-ActionPack
     SUBDIR += p5-HTTP-Headers-Fast
     SUBDIR += p5-HTTP-Link-Parser
     SUBDIR += p5-HTTP-Lite
@@ -1256,6 +1259,7 @@
     SUBDIR += p5-WWW-Wikipedia
     SUBDIR += p5-WWW-Yandex-TIC
     SUBDIR += p5-WWW-iTunesConnect
+    SUBDIR += p5-Web-Machine
     SUBDIR += p5-Web-Query
     SUBDIR += p5-Web-Scraper
     SUBDIR += p5-Web-Scraper-Config
@@ -1414,6 +1418,7 @@
     SUBDIR += py-beautifulsoup
     SUBDIR += py-beautifulsoup32
     SUBDIR += py-beautifulsoup448
+    SUBDIR += py-betamax
     SUBDIR += py-biscuits
     SUBDIR += py-bjoern
     SUBDIR += py-bleach
@@ -1435,28 +1440,6 @@
     SUBDIR += py-cssmin
     SUBDIR += py-cssselect
     SUBDIR += py-cssutils
-    SUBDIR += py-dj22-django-auth-ldap
-    SUBDIR += py-dj22-django-cacheops
-    SUBDIR += py-dj22-django-cors-headers
-    SUBDIR += py-dj22-django-crispy-forms
-    SUBDIR += py-dj22-django-debug-toolbar
-    SUBDIR += py-dj22-django-extensions
-    SUBDIR += py-dj22-django-filter
-    SUBDIR += py-dj22-django-js-asset
-    SUBDIR += py-dj22-django-model-utils
-    SUBDIR += py-dj22-django-mptt
-    SUBDIR += py-dj22-django-prometheus
-    SUBDIR += py-dj22-django-redis
-    SUBDIR += py-dj22-django-tables2
-    SUBDIR += py-dj22-django-taggit
-    SUBDIR += py-dj22-django-taggit-serializer
-    SUBDIR += py-dj22-django-timezone-field
-    SUBDIR += py-dj22-django-treebeard
-    SUBDIR += py-dj22-djangorestframework
-    SUBDIR += py-dj22-drf-yasg
-    SUBDIR += py-dj22-jsonfield
-    SUBDIR += py-dj22-jsonfield2
-    SUBDIR += py-dj22-swapper
     SUBDIR += py-django
     SUBDIR += py-django-allauth
     SUBDIR += py-django-annoying
@@ -1487,7 +1470,6 @@
     SUBDIR += py-django-crispy-forms
     SUBDIR += py-django-cron
     SUBDIR += py-django-csp
-    SUBDIR += py-django-datetime-widget
     SUBDIR += py-django-debreach
     SUBDIR += py-django-debug-toolbar
     SUBDIR += py-django-dpaste
@@ -1519,10 +1501,8 @@
     SUBDIR += py-django-modern-rpc
     SUBDIR += py-django-mptt
     SUBDIR += py-django-netfields
-    SUBDIR += py-django-openid-auth
     SUBDIR += py-django-otp
     SUBDIR += py-django-otp-yubikey
-    SUBDIR += py-django-overextends
     SUBDIR += py-django-pglocks
     SUBDIR += py-django-photologue
     SUBDIR += py-django-picklefield
@@ -1547,7 +1527,6 @@
     SUBDIR += py-django-statici18n
     SUBDIR += py-django-staticinline
     SUBDIR += py-django-storages
-    SUBDIR += py-django-subdomains
     SUBDIR += py-django-sudo
     SUBDIR += py-django-tables2
     SUBDIR += py-django-tagging
@@ -1603,7 +1582,7 @@
     SUBDIR += py-flask-peewee
     SUBDIR += py-flask-principal
     SUBDIR += py-flask-restful
-    SUBDIR += py-flask-restplus
+    SUBDIR += py-flask-restx
     SUBDIR += py-flask-script
     SUBDIR += py-flask-security
     SUBDIR += py-flask-smorest
@@ -1664,7 +1643,6 @@
     SUBDIR += py-jonpy
     SUBDIR += py-jsonfield
     SUBDIR += py-jsonfield2
-    SUBDIR += py-kallithea
     SUBDIR += py-lektor
     SUBDIR += py-lesscpy
     SUBDIR += py-libsass
@@ -1754,6 +1732,7 @@
     SUBDIR += py-tornado6
     SUBDIR += py-trello
     SUBDIR += py-treq
+    SUBDIR += py-tuir
     SUBDIR += py-turbogears2
     SUBDIR += py-tvdb_api
     SUBDIR += py-txrequests
@@ -1802,19 +1781,6 @@
     SUBDIR += qutebrowser
     SUBDIR += radicale
     SUBDIR += radicale2
-    SUBDIR += redmine
-    SUBDIR += redmine-a_common_libs
-    SUBDIR += redmine-basecamp
-    SUBDIR += redmine-default_assign
-    SUBDIR += redmine-graphs
-    SUBDIR += redmine-http-auth
-    SUBDIR += redmine-issue_templates
-    SUBDIR += redmine-knowledgebase
-    SUBDIR += redmine-ldap_sync
-    SUBDIR += redmine-qa_contact
-    SUBDIR += redmine-redcarpet_formatter
-    SUBDIR += redmine-single_auth
-    SUBDIR += redmine-wiki_notes
     SUBDIR += redmine4
     SUBDIR += rejik
     SUBDIR += reportmagic
@@ -1831,6 +1797,7 @@
     SUBDIR += rsstool
     SUBDIR += rt42
     SUBDIR += rt44
+    SUBDIR += rt50
     SUBDIR += rtv
     SUBDIR += rubygem-ace-rails-ap
     SUBDIR += rubygem-actioncable5
@@ -1931,7 +1898,6 @@
     SUBDIR += rubygem-hamlit-rails-rails50
     SUBDIR += rubygem-hashicorp-checkpoint
     SUBDIR += rubygem-heroics
-    SUBDIR += rubygem-heroics00
     SUBDIR += rubygem-heroku-api
     SUBDIR += rubygem-heroku-nav
     SUBDIR += rubygem-hpricot
@@ -2138,6 +2104,7 @@
     SUBDIR += sabredav
     SUBDIR += sahi
     SUBDIR += sakai
+    SUBDIR += samdruckerserver
     SUBDIR += sarg
     SUBDIR += scloader
     SUBDIR += script4rss
@@ -2299,7 +2266,6 @@
     SUBDIR += twiki-WysiwygPlugin
     SUBDIR += twms
     SUBDIR += typo3-10
-    SUBDIR += typo3-8
     SUBDIR += typo3-9
     SUBDIR += uchiwa
     SUBDIR += ufdbguard

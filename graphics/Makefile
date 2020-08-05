@@ -42,6 +42,7 @@
     SUBDIR += aalib
     SUBDIR += aaphoto
     SUBDIR += acidwarp
+    SUBDIR += acidwarp-sdl
     SUBDIR += agg
     SUBDIR += alembic
     SUBDIR += alpng
@@ -148,6 +149,7 @@
     SUBDIR += egl-wayland
     SUBDIR += eglexternalplatform
     SUBDIR += electricsheep
+    SUBDIR += elementary-photos
     SUBDIR += embree
     SUBDIR += enblend
     SUBDIR += engauge-digitizer
@@ -171,6 +173,7 @@
     SUBDIR += exiftran
     SUBDIR += exiv2
     SUBDIR += exrtools
+    SUBDIR += f3d
     SUBDIR += facedetect
     SUBDIR += farbfeld
     SUBDIR += feh
@@ -378,6 +381,7 @@
     SUBDIR += jslice
     SUBDIR += kamera
     SUBDIR += kamerka
+    SUBDIR += katarakt
     SUBDIR += kcolorchooser
     SUBDIR += kcolorpicker
     SUBDIR += kdegraphics
@@ -400,6 +404,7 @@
     SUBDIR += kphotoalbum
     SUBDIR += kqtquickcharts
     SUBDIR += krita
+    SUBDIR += ksnip
     SUBDIR += kudu
     SUBDIR += kxstitch
     SUBDIR += l2p
@@ -886,8 +891,10 @@
     SUBDIR += py-webcolors
     SUBDIR += py-willow
     SUBDIR += py-yaswfp
+    SUBDIR += py-zbar-py
     SUBDIR += pymorph
     SUBDIR += qcomicbook
+    SUBDIR += qcustomplot-qt5
     SUBDIR += qgis
     SUBDIR += qgis-ltr
     SUBDIR += qiv
@@ -901,10 +908,12 @@
     SUBDIR += qt5-wayland
     SUBDIR += qtawesome
     SUBDIR += qtpbfimageplugin
+    SUBDIR += qtqr
     SUBDIR += quat
     SUBDIR += quat-gui
     SUBDIR += quesa
     SUBDIR += quesoglc
+    SUBDIR += qvge
     SUBDIR += radiance
     SUBDIR += radius-engine
     SUBDIR += rapid-photo-downloader
@@ -1003,6 +1012,7 @@
     SUBDIR += svg2png
     SUBDIR += svgalib
     SUBDIR += svgbob
+    SUBDIR += swappy
     SUBDIR += swfdec
     SUBDIR += swfmill
     SUBDIR += swftools
@@ -1055,8 +1065,10 @@
     SUBDIR += waifu2x-converter-cpp
     SUBDIR += waifu2x-ncnn-vulkan
     SUBDIR += wayland
+    SUBDIR += wayland-info
     SUBDIR += wayland-protocols
     SUBDIR += waylandpp
+    SUBDIR += wdune
     SUBDIR += webp
     SUBDIR += webp-pixbuf-loader
     SUBDIR += wings

@@ -13,9 +13,7 @@
     SUBDIR += assimp
     SUBDIR += atomicparsley
     SUBDIR += audacious
-    SUBDIR += audacious-gtk3
     SUBDIR += audacious-plugins
-    SUBDIR += audacious-plugins-gtk3
     SUBDIR += avidemux
     SUBDIR += avidemux-cli
     SUBDIR += avidemux-plugins
@@ -55,9 +53,9 @@
     SUBDIR += dvdid
     SUBDIR += dvdrip
     SUBDIR += dvdstyler
+    SUBDIR += elementary-videos
     SUBDIR += emby-server
     SUBDIR += emovix
-    SUBDIR += f3d
     SUBDIR += ffaudioconverter
     SUBDIR += ffdec
     SUBDIR += ffmpeg

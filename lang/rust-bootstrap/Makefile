@@ -1,8 +1,7 @@
 # $FreeBSD$
 
 PORTNAME=	rust
-PORTVERSION=	1.44.0
-PORTREVISION=	1
+PORTVERSION=	1.45.0
 CATEGORIES=	lang
 MASTER_SITES=	https://static.rust-lang.org/dist/:rust \
 		LOCAL/tobik:armbase \
@@ -107,10 +106,6 @@ post-patch:
 # Disable vendor checksums
 	@${REINPLACE_CMD} 's,"files":{[^}]*},"files":{},' \
 		${_CARGO_VENDOR_DIR}/*/.cargo-checksum.json
-.if ${FLAVOR:Mpowerpc64_*}
-	@${REINPLACE_CMD} -e 's,powerpc64-unknown-freebsd,${_RUST_TARGET}${_RUST_FBSD_VER:S/-/ /:[1]},' \
-		${WRKSRC}/src/librustc_target/spec/powerpc64_unknown_freebsd.rs
-.endif
 .if ${FLAVOR} == powerpc64_elfv1
 	@${REINPLACE_CMD} -e 's,"c++","stdc++",g' \
 		${WRKSRC}/src/librustc_llvm/build.rs
@@ -205,11 +200,11 @@ do-build:
 		cargo src/librustc src/libstd
 
 do-install:
-	@${MKDIR} ${STAGEDIR}${PREFIX}/rust-bootstrap
-	${INSTALL_DATA} ${WRKSRC}/build/dist/*-${_RUST_TARGET}*${EXTRACT_SUFX} \
-		${STAGEDIR}${PREFIX}/rust-bootstrap
+	@${MKDIR} ${STAGEDIR}${PREFIX}/rust-bootstrap/${FLAVOR}
+	${INSTALL_DATA} ${WRKSRC}/build/dist/*-unknown-${OPSYS:tl}${EXTRACT_SUFX} \
+		${STAGEDIR}${PREFIX}/rust-bootstrap/${FLAVOR}
 .if ${FLAVOR:Mpowerpc64_*}
-	@cd ${STAGEDIR}${PREFIX}/rust-bootstrap && for f in *${EXTRACT_SUFX}; do \
+	@cd ${STAGEDIR}${PREFIX}/rust-bootstrap/${FLAVOR} && for f in *${EXTRACT_SUFX}; do \
 		${MV} $$f $${f%%${EXTRACT_SUFX}}-${FLAVOR:S/_/ /:[2]}${EXTRACT_SUFX}; \
 	done
 .endif

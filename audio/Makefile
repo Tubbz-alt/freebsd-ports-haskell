@@ -39,7 +39,6 @@
     SUBDIR += asunder
     SUBDIR += atunes
     SUBDIR += aubio
-    SUBDIR += aucatctl
     SUBDIR += audacity
     SUBDIR += audiere
     SUBDIR += audiocd-kio
@@ -142,6 +141,7 @@
     SUBDIR += eteroj-lv2
     SUBDIR += etktab
     SUBDIR += exaile
+    SUBDIR += exhale
     SUBDIR += ezstream
     SUBDIR += faac
     SUBDIR += faad
@@ -451,6 +451,7 @@
     SUBDIR += linux-c7-alsa-utils
     SUBDIR += linux-c7-audiofile
     SUBDIR += linux-c7-flac
+    SUBDIR += linux-c7-gsm
     SUBDIR += linux-c7-libogg
     SUBDIR += linux-c7-libsndfile
     SUBDIR += linux-c7-libvorbis
@@ -568,6 +569,7 @@
     SUBDIR += opus
     SUBDIR += opus-tools
     SUBDIR += opusfile
+    SUBDIR += opustags
     SUBDIR += orbit-lv2
     SUBDIR += osalp
     SUBDIR += osd-lyrics

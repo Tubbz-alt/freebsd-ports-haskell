@@ -10,6 +10,7 @@
     SUBDIR += climm
     SUBDIR += coccinella
     SUBDIR += convey
+    SUBDIR += cordless
     SUBDIR += corebird
     SUBDIR += coyim
     SUBDIR += cutegram
@@ -119,6 +120,7 @@
     SUBDIR += purple-discord
     SUBDIR += purple-facebook
     SUBDIR += purple-hangouts
+    SUBDIR += purple-plugin-pack
     SUBDIR += purple-rocketchat
     SUBDIR += purple-slack
     SUBDIR += py-fbmq

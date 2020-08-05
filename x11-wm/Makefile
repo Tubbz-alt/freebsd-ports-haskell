@@ -13,6 +13,7 @@
     SUBDIR += awesome-vicious
     SUBDIR += bbkeys
     SUBDIR += bbpager
+    SUBDIR += berry
     SUBDIR += blackbox
     SUBDIR += bspwm
     SUBDIR += cage
@@ -85,6 +86,7 @@
     SUBDIR += peksystray
     SUBDIR += pekwm
     SUBDIR += phluid
+    SUBDIR += phoc
     SUBDIR += picom
     SUBDIR += piewm
     SUBDIR += plasma5-kdecoration
