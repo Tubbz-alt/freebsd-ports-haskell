@@ -2,7 +2,7 @@
 
 PORTNAME=	elm
 PORTVERSION=	0.19.1
-PORTREVISION=	1
+PORTREVISION=	2
 CATEGORIES=	lang
 MASTER_SITES=	LOCAL/arrowd/:package_list
 DISTFILES=	elm-compiler-bootstrap-${PORTVERSION}${EXTRACT_SUFX}:package_list
