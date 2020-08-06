@@ -3,7 +3,6 @@
 
 PORTNAME=	stack
 PORTVERSION=	2.3.3
-PORTREVISION=	1
 DISTVERSIONPREFIX=	v
 CATEGORIES=	devel haskell
 EXTRACT_ONLY=	${DISTNAME}${EXTRACT_SUFX}
@@ -27,6 +26,7 @@ USES=		cabal gmake perl5
 USE_PERL5=	run
 
 CABAL_FLAGS=	-support_aesni
+
 USE_CABAL=	Glob-0.10.1 \
 		StateVar-1.2 \
 		aeson-1.4.7.1_1 \
@@ -57,6 +57,7 @@ USE_CABAL=	Glob-0.10.1 \
 		case-insensitive-1.2.1.0 \
 		cereal-0.5.8.1 \
 		clock-0.8 \
+		cmdargs-0.10.20 \
 		colour-2.3.5 \
 		comonad-5.0.6_1 \
 		conduit-1.3.2 \
@@ -121,7 +122,7 @@ USE_CABAL=	Glob-0.10.1 \
 		open-browser-0.2.1.0 \
 		optparse-applicative-0.15.1.0_1 \
 		optparse-simple-0.1.1.2 \
-		pantry-0.5.1.1 \
+		pantry-0.4.0.2 \
 		parser-combinators-1.2.1 \
 		path-0.8.0 \
 		path-io-1.6.0_3 \
