@@ -1,4 +1,4 @@
-TIMESTAMP = 1596643622
+TIMESTAMP = 1596694547
 SHA256 (cabal/Glob-0.10.1/Glob-0.10.1.tar.gz) = cae4476d944947010705e0b00cf3e36c90ef407f968861f6771b931056b6d315
 SIZE (cabal/Glob-0.10.1/Glob-0.10.1.tar.gz) = 29763
 SHA256 (cabal/StateVar-1.2/StateVar-1.2.tar.gz) = afc036021fcd38f15fcc4af392a3e57017d5ddcc926e99391dbfc8c4e6375f8b
@@ -405,5 +405,5 @@ SHA256 (cabal/zip-archive-0.4.1/revision/1.cabal) = 51774bdc747d20b8f23172315f9c
 SIZE (cabal/zip-archive-0.4.1/revision/1.cabal) = 4055
 SHA256 (cabal/zlib-0.6.2.2/zlib-0.6.2.2.tar.gz) = 04b5890dd69e992f8cd09570d81e9d5ecab19db8e82cbe47ba8e02c31c0631ba
 SIZE (cabal/zlib-0.6.2.2/zlib-0.6.2.2.tar.gz) = 148178
-SHA256 (cabal/commercialhaskell-stack-v2.3.1_GH0.tar.gz) = 6701ddfc6d0be0c2bf0f75c84375e41923c5617f04222c5e582e7011c7f8fb83
-SIZE (cabal/commercialhaskell-stack-v2.3.1_GH0.tar.gz) = 688104
+SHA256 (cabal/commercialhaskell-stack-v2.3.3_GH0.tar.gz) = 57042c0c7b53a6f8dba7f31679e9049c28351a86b8bc2786f7e37eda4733634e
+SIZE (cabal/commercialhaskell-stack-v2.3.3_GH0.tar.gz) = 684783
