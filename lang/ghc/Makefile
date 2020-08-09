@@ -105,6 +105,10 @@ LLVM_VERSION=		90
 CONFIGURE_ARGS+=	--enable-dtrace=0
 .endif
 
+.if ${ARCH} == i386
+EXTRA_PATCHES+=	${PATCHDIR}/extra-patch-libraries_ghc-prim_ghc-prim.cabal
+.endif
+
 .if defined(PPC_ABI) && ${PPC_ABI} == ELFv1
 BOOT_GHC_VERSION=      8.6.3
 .else
