@@ -106,7 +106,7 @@ CONFIGURE_ARGS+=	--enable-dtrace=0
 .endif
 
 .if ${ARCH} == i386
-EXTRA_PATCHES+=	${PATCHDIR}/extra-patch-libraries_ghc-prim_ghc-prim.cabal
+EXTRA_PATCHES+=	${PATCHDIR}/extra-patch-libraries_ghc-prim_cbits_atomic.c
 .endif
 
 .if defined(PPC_ABI) && ${PPC_ABI} == ELFv1

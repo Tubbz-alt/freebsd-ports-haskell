@@ -1,8 +1,0 @@
---- libraries/ghc-prim/ghc-prim.cabal.orig	2019-11-23 20:27:35 UTC
-+++ libraries/ghc-prim/ghc-prim.cabal
-@@ -82,4 +82,4 @@ Library
- 
-     -- We need to set the unit ID to ghc-prim (without a version number)
-     -- as it's magic.
--    ghc-options: -this-unit-id ghc-prim
-+    ghc-options: -this-unit-id ghc-prim -optc-march=i686
