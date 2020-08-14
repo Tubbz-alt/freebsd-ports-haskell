@@ -58,6 +58,7 @@
     SUBDIR += beets
     SUBDIR += bharvestr-lv2
     SUBDIR += bjumblr-lv2
+    SUBDIR += bliss
     SUBDIR += blop
     SUBDIR += blop-lv2
     SUBDIR += bristol
@@ -659,7 +660,8 @@
     SUBDIR += py-fmoo-audiotools
     SUBDIR += py-gmusicapi
     SUBDIR += py-gmusicproxy
-    SUBDIR += py-hsaudiotag
+    SUBDIR += py-gtts
+    SUBDIR += py-hsaudiotag3k
     SUBDIR += py-karaoke
     SUBDIR += py-mpd
     SUBDIR += py-music21

@@ -65,6 +65,7 @@
     SUBDIR += atitvout
     SUBDIR += atop
     SUBDIR += auto-admin
+    SUBDIR += autojump
     SUBDIR += automount
     SUBDIR += automounter
     SUBDIR += autopsy
@@ -95,6 +96,7 @@
     SUBDIR += bareos18-server
     SUBDIR += bareos18-traymonitor
     SUBDIR += barrier
+    SUBDIR += bashtop
     SUBDIR += bastille
     SUBDIR += batmon
     SUBDIR += battmond
@@ -112,6 +114,7 @@
     SUBDIR += bksh
     SUBDIR += boot-extract
     SUBDIR += boxbackup-devel
+    SUBDIR += bpytop
     SUBDIR += brasero
     SUBDIR += bsd-splash-changer
     SUBDIR += bsdconfig
@@ -292,6 +295,7 @@
     SUBDIR += ec2-scripts
     SUBDIR += eclat
     SUBDIR += edid-decode
+    SUBDIR += edk2
     SUBDIR += eject
     SUBDIR += eksctl
     SUBDIR += endian
@@ -708,6 +712,7 @@
     SUBDIR += msiklm
     SUBDIR += msktutil
     SUBDIR += mstflint
+    SUBDIR += mstflint-lite
     SUBDIR += msyslog
     SUBDIR += mtm
     SUBDIR += mtpfs
@@ -1027,6 +1032,7 @@
     SUBDIR += py-upt-rubygems
     SUBDIR += py-uptime
     SUBDIR += py-zdaemon
+    SUBDIR += py-zfs-autobackup
     SUBDIR += pydf
     SUBDIR += qchroot
     SUBDIR += qdirstat
@@ -1037,6 +1043,7 @@
     SUBDIR += qt5-qtpaths
     SUBDIR += qt5-qtplugininfo
     SUBDIR += qtpass
+    SUBDIR += quickjail
     SUBDIR += quicksynergy
     SUBDIR += racktables
     SUBDIR += radeontool
@@ -1093,6 +1100,8 @@
     SUBDIR += rubygem-chef-config
     SUBDIR += rubygem-chef-config12
     SUBDIR += rubygem-chef-dk
+    SUBDIR += rubygem-chef-utils
+    SUBDIR += rubygem-chef-vault
     SUBDIR += rubygem-chef-zero
     SUBDIR += rubygem-chef-zero5
     SUBDIR += rubygem-chef12
@@ -1199,6 +1208,7 @@
     SUBDIR += scterc
     SUBDIR += sd-agent
     SUBDIR += sdparm
+    SUBDIR += seatd
     SUBDIR += seatools
     SUBDIR += sec
     SUBDIR += sensu-go
@@ -1361,6 +1371,7 @@
     SUBDIR += u-boot-pinebookpro
     SUBDIR += u-boot-qemu-arm
     SUBDIR += u-boot-qemu-arm64
+    SUBDIR += u-boot-qemu-riscv64
     SUBDIR += u-boot-riotboard
     SUBDIR += u-boot-rock64
     SUBDIR += u-boot-rockpro64
